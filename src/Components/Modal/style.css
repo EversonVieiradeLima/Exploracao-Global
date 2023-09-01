@@ -6,7 +6,7 @@
 
 .titleModal {
    align-items: center;
-   color: var(--cor-principal);
+   color: var(--cor-barra-fundo);
    display: flex;
    font-family: 'Yellowtail', cursive;
    font-size: 2rem;
