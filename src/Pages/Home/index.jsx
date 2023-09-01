@@ -5,6 +5,7 @@ import NavbarButtons from "../../Components/NavbarButtons/NavbarButtons";
 import Button from "react-bootstrap/Button";
 import Formulario from "../../Components/FormHome";
 import Cards from "../../Components/Cards/Cards";
+import Footer from "../../Components/Footer/Footer";
 
 import "./style.css";
 import { IoIosArrowUp } from "react-icons/io";
@@ -48,8 +49,8 @@ export default function Home() {
       <main>
         <NavbarButtons />
         <Formulario />
-        <div>
-          <img src={propaganda} alt="" />
+        <div className="boxPropaganda">
+          <img src={propaganda} alt="propaganda" />
         </div>
         <Cards />
         <div className={`back-to-top ${showButton ? "show" : ""}`}>
@@ -62,6 +63,7 @@ export default function Home() {
           </Button>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
