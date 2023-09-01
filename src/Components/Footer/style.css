@@ -1,0 +1,87 @@
+.containerFooter {
+   align-items: center;
+   background-color: var(--cor-fundo-modal);
+   color: var(--cor-barra-fundo);
+   display: flex;
+   flex-direction: column;
+   padding-top: 1rem;
+   width: 100%;
+}
+
+.boxLogoFooter {
+   align-items: center;
+   display: flex;
+   margin-bottom: 1rem;
+}
+
+.logoFooter {
+   width: 3rem;
+}
+
+.TituloFooter {
+   font-family: 'Yellowtail', cursive;
+   color: var(--cor-barra-fundo);
+   font-size: 2rem;
+}
+
+.containerNavLinks {
+   display: flex;
+   justify-content: space-evenly;
+   width: 100%;
+}
+
+.navLink,
+.active {
+   color: var(--cor-barra-fundo);
+}
+
+.navLink:hover {
+   color: var(--cor-principal);
+}
+
+.containerRedes {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   margin: 1rem 0 2rem;
+   width: 100%;
+}
+
+.boxRedesSociais {
+   display: flex;
+   justify-content: space-evenly;
+   width: 100%;
+}
+
+.redesSociais {
+   background: transparent;
+   border: none;
+   height: 2rem;
+   width: 2rem;
+}
+
+.icones {
+   height: 100%;
+   width: 100%;
+   color: var(--cor-barra-fundo);
+}
+
+.facebook:hover {
+   color: #3b5998;
+}
+
+.instagram:hover {
+   color: #d62976;
+}
+
+.twitter:hover {
+   color: #1DA1F2;
+}
+
+.pinterest:hover {
+   color: #c8232c;
+}
+
+.icones:active {
+   color: var(--cor-barra-fundo);
+}
