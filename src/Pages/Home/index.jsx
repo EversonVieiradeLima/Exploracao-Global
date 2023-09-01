@@ -10,7 +10,7 @@ import Footer from "../../Components/Footer/Footer";
 import "./style.css";
 import { IoIosArrowUp } from "react-icons/io";
 
-import propaganda from "../../Images/Banner/propaganda.png";
+// import propaganda from "../../Images/Banner/propaganda.png";
 
 export default function Home() {
   const [showButton, setShowButton] = useState(false);
@@ -49,9 +49,9 @@ export default function Home() {
       <main>
         <NavbarButtons />
         <Formulario />
-        <div className="boxPropaganda">
+        {/* <div className="boxPropaganda">
           <img src={propaganda} alt="propaganda" />
-        </div>
+        </div> */}
         <Cards />
         <div className={`back-to-top ${showButton ? "show" : ""}`}>
           <Button
