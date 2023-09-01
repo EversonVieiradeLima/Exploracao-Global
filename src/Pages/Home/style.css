@@ -3,6 +3,16 @@ main {
    padding-top: 2rem;
 }
 
+.boxPropaganda {
+   display: flex;
+   width: 100%;
+}
+
+.boxPropaganda img {
+   height: auto;
+   width: 100%;
+}
+
 .btn-outline-primary,
 .btn-primary {
    --bs-btn-active-color: var(--cor-secundario);
