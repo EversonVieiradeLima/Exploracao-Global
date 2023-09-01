@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+.navbar {
+   background-color: var(--cor-principal) !important;
+}
+
+.navbarBrand {
+   align-items: center;
+   display: flex;
+   font-family: 'Yellowtail', cursive;
+   color: var(--cor-secundario);
+   font-size: 2rem;
+}
+
+.navbarBrand:hover {
+   color: var(--cor-secundario);
+}
+
+img {
+   margin-right: 1rem;
+}
+
+.buttonLogin {
+   background-color: transparent;
+   border: 2px solid var(--cor-secundario);
+   color: var(--cor-secundario);
+   font-weight: 500;
+}
+
+.buttonLogin:hover {
+   background-color: var(--cor-secundario);
+   border: 2px solid var(--cor-secundario);
+   color: var(--cor-principal);
+}
+
+.buttonCadastro {
+   background-color: var(--cor-principal-destaque);
+   border: 2px solid var(--cor-principal-destaque);
+   color: var(--cor-secundario);
+   font-weight: 500;
+}
+
+.buttonCadastro:hover {
+   background-color: var(--cor-secundario);
+   border: 2px solid var(--cor-secundario);
+   color: var(--cor-principal);
+}

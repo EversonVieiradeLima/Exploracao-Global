@@ -1,0 +1,42 @@
+main {
+   background-color: var(--cor-fundo);
+   padding-top: 2rem;
+}
+
+.btn-outline-primary,
+.btn-primary {
+   --bs-btn-active-color: var(--cor-secundario);
+   --bs-btn-active-bg: var(--cor-principal-destaque);
+   --bs-btn-active-border-color: var(--cor-secundario);
+}
+
+.back-to-top {
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+   opacity: 0;
+   visibility: hidden;
+   transition: opacity 0.3s, visibility 0.3s;
+   z-index: 999;
+}
+
+.back-to-top.show {
+   opacity: 1;
+   visibility: visible;
+}
+
+.buttonScroll {
+   align-items: center;
+   background-color: var(--cor-barra-fundo);
+   border: none;
+   border-radius: 100%;
+   color: var(--cor-secundario);
+   display: flex;
+   height: 2.5rem;
+   justify-content: center;
+   width: 2.5rem;
+}
+
+.buttonScroll:hover {
+   background-color: var(--cor-principal);
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600&display=swap');
+
+:root {
+   --cor-secundario: #ffffff;
+   --cor-fundo: #EEEEEE;
+   --cor-principal: #38618C;
+   --cor-principal-destaque: #2f4f71;
+   --cor-barra-fundo: #2B3035;
+   --cor-fundo-modal: #AAAAAA;
+}
+
+* {
+   font-family: 'Kanit', sans-serif;
+   margin: 0;
+   padding: 0;
+}

@@ -1,0 +1,51 @@
+.boxButtonOption {
+   align-items: center;
+   display: flex;
+   justify-content: space-evenly;
+   height: 4.5rem;
+}
+
+.boxButton {
+   display: flex;
+   justify-content: center;
+   width: 15rem;
+}
+
+.buttonOption {
+   border: none;
+   color: var(--cor-barra-fundo);
+   font-weight: 400;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 0px;
+}
+
+.buttonOption:hover {
+   background-color: transparent;
+   border: none;
+   border-bottom: 3px solid var(--cor-principal);
+   color: var(--cor-principal);
+   font-size: 1.3rem;
+
+   .iconButton {
+      font-size: 1.4rem;
+   }
+}
+
+/* .buttonOption:active {
+   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+} */
+
+.buttonOption.on,
+.buttonOption.on:hover {
+   background-color: var(--cor-principal);
+   border: 2px solid var(--cor-principal);
+   color: var(--cor-secundario);
+}
+
+.btn-outline-primary.buttonOption {
+   --bs-btn-active-color: var(--cor-principal-destaque);
+   --bs-btn-active-bg: transparent;
+   --bs-btn-active-border-color: transparent;
+}

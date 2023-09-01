@@ -1,0 +1,74 @@
+.containerPesquisa {
+   padding: 0 0 2rem 0;
+}
+
+.fomulario {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   margin-top: 1rem;
+}
+
+.boxForm {
+   background: url("../../Images/Banner/paisagem.png") no-repeat center / cover;
+   height: 50vh;
+}
+
+.input {
+   height: 3rem;
+   width: 50rem;
+}
+
+.boxImg {
+   background-color: var(--cor-secundario);
+   width: 2.2rem;
+}
+
+.formControl {
+   border-left: none;
+}
+
+.formControl:focus {
+   outline: none;
+   box-shadow: none;
+}
+
+.buttonBuscar {
+   background-color: var(--cor-principal-destaque);
+   border: 2px solid var(--cor-principal-destaque);
+   color: var(--cor-secundario);
+}
+
+.buttonBuscar:hover {
+   background-color: var(--cor-principal);
+   border: 2px solid var(--cor-principal);
+   color: var(--cor-secundario);
+}
+
+.btn-primary.buttonBuscar {
+   --bs-btn-active-color: var(--cor-secundario);
+   --bs-btn-active-bg: var(--cor-principal-destaque);
+   --bs-btn-active-border-color: var(--cor-principal-destaque);
+}
+
+.travelPackage {
+   margin: 0 2rem;
+}
+
+.card {
+   box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.3);
+   background-color: var(--cor-principal-destaque);
+   color: var(--cor-secundario);
+}
+
+.buttonDetalhes {
+   background-color: transparent;
+   border: 2px solid var(--cor-secundario);
+   color: var(--cor-secundario);
+}
+
+.buttonDetalhes:hover {
+   background-color: var(--cor-secundario);
+   border: 2px solid var(--cor-secundario);
+   color: var(--cor-principal);
+}

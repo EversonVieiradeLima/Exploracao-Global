@@ -1,0 +1,56 @@
+.headerModal,
+.bodyModal,
+.footerModal {
+   background-color: var(--cor-fundo-modal);
+}
+
+.titleModal {
+   align-items: center;
+   color: var(--cor-principal);
+   display: flex;
+   font-family: 'Yellowtail', cursive;
+   font-size: 2rem;
+   justify-content: center;
+   width: 100%;
+}
+
+.logoModal {
+   width: 5rem;
+}
+
+.bodyModal,
+.footerModal,
+.formModal {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.bodyModal {
+   text-align: center;
+}
+
+.formModal {
+   width: 95%;
+}
+
+.boxInputModal {
+   width: 100%;
+}
+
+.inputModal {
+   width: 100%;
+}
+
+.buttonCadastrarModal {
+   background-color: var(--cor-principal-destaque);
+   border: 2px solid var(--cor-principal-destaque);
+   color: var(--cor-secundario);
+}
+
+.buttonCadastrarModal:hover {
+   background-color: var(--cor-principal);
+   border: 2px solid var(--cor-principal);
+   color: var(--cor-secundario);
+}
