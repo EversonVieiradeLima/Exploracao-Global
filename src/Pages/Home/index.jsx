@@ -14,11 +14,12 @@ import { IoIosArrowUp } from "react-icons/io";
 
 export default function Home() {
   const [showButton, setShowButton] = useState(false);
-
   const [showCards, setShowCards] = useState(false);
+  const [reverseCards, setReverseCards] = useState(false);
 
   const toggleCards = () => {
     setShowCards(!showCards);
+    setReverseCards(!reverseCards);
   };
 
   const handleScroll = () => {
@@ -56,17 +57,16 @@ export default function Home() {
         <NavbarButtons />
         <Formulario />
         <Carrossel />
-        <Cards />
-
+        <Cards reverseCards={reverseCards}  />
+        {showCards && <Cards reverseCards={reverseCards}  />}
         <div className="boxButtonMaisDestinos">
           <Button size="lg" onClick={toggleCards} className="buttonMaisDestinos" id="buttonMaisDestinos">
             {showCards ? 'Ver Menos Destinos' : 'Ver Mais Destinos'}
           </Button>
         </div>
-        {showCards && <Cards />}
 
         <Duvidas />
-        
+
         <div className={`back-to-top ${showButton ? "show" : ""}`}>
           <Button
             variant="primary"

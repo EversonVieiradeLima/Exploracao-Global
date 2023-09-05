@@ -1,5 +1,5 @@
 .containerCards {
-   padding: 0 .5rem 2rem .5rem;
+   padding: 0 .5rem;
    max-width: 100vw;
 }
 
@@ -39,4 +39,9 @@
    background-color: var(--cor-secundario);
    border: 2px solid var(--cor-secundario);
    color: var(--cor-principal);
+}
+
+.reverse-cards-container {
+   display: flex;
+   flex-direction: column-reverse;
 }

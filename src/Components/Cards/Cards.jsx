@@ -8,9 +8,9 @@ import hotel_luz_azul_quad from "../../Images/Cards/hotel_luz_azul_quad.png";
 import passeio_de_barco_quad from "../../Images/Cards/passeio_de_barco_quad.png";
 import museu_dOrsay_quad from "../../Images/Cards/museu_dOrsay_quad.png";
 
-export default function Cards() {
+export default function Cards({ reverseCards }) {
    return(
-      <div className="containerCards">
+      <div className={`containerCards ${reverseCards ? 'reverse-cards-container' : ''}`}>
          <div className="boxCards">
             <Card className="bg-dark text-white boxCard">
                <Card.Img src={pao_de_acucar_quad} alt="Pão de açúcar" height={288} />
