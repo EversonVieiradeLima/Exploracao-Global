@@ -4,16 +4,21 @@ import Header from "../../Components/Header/Header";
 import NavbarButtons from "../../Components/NavbarButtons/NavbarButtons";
 import Button from "react-bootstrap/Button";
 import Formulario from "../../Components/FormHome";
+import Carrossel from "../../Components/Carrossel/Carrossel";
 import Cards from "../../Components/Cards/Cards";
 import Footer from "../../Components/Footer/Footer";
 
 import "./style.css";
 import { IoIosArrowUp } from "react-icons/io";
 
-import propaganda from "../../Images/Banner/propaganda.png";
-
 export default function Home() {
   const [showButton, setShowButton] = useState(false);
+
+  const [showCards, setShowCards] = useState(false);
+
+  const toggleCards = () => {
+    setShowCards(!showCards);
+  };
 
   const handleScroll = () => {
     if (window.scrollY > 100) {
@@ -49,10 +54,16 @@ export default function Home() {
       <main>
         <NavbarButtons />
         <Formulario />
-        <div className="boxPropaganda">
-          <img src={propaganda} alt="propaganda" />
-        </div>
+        <Carrossel />
         <Cards />
+
+        <div className="boxButtonMaisDestinos">
+          <Button size="lg" onClick={toggleCards} className="buttonMaisDestinos" id="buttonMaisDestinos">
+            {showCards ? 'Ver Menos Destinos' : 'Ver Mais Destinos'}
+          </Button>
+        </div>
+      {showCards && <Cards />}
+
         <div className={`back-to-top ${showButton ? "show" : ""}`}>
           <Button
             variant="primary"
