@@ -1,0 +1,30 @@
+.scrollToTop {
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+   opacity: 0;
+   visibility: hidden;
+   transition: opacity 0.3s, visibility 0.3s;
+   z-index: 999;
+}
+
+.scrollToTop.show {
+   opacity: 1;
+   visibility: visible;
+}
+
+.buttonScroll {
+   align-items: center;
+   background-color: var(--cor-barra-fundo);
+   border: none;
+   border-radius: 100%;
+   color: var(--cor-secundario);
+   display: flex;
+   height: 2.5rem;
+   justify-content: center;
+   width: 2.5rem;
+}
+
+.buttonScroll:hover {
+   background-color: var(--cor-principal);
+}
