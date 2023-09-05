@@ -1,0 +1,14 @@
+.containerDuvidas {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   margin-top: 3rem;
+}
+
+.titleDuvidas {
+   margin-bottom: 2rem;
+}
+
+.accordion {
+   width: 70%;
+}

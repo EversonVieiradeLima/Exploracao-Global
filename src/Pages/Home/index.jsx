@@ -6,6 +6,7 @@ import Button from "react-bootstrap/Button";
 import Formulario from "../../Components/FormHome";
 import Carrossel from "../../Components/Carrossel/Carrossel";
 import Cards from "../../Components/Cards/Cards";
+import Duvidas from "../../Components/Accordion/Duvidas";
 import Footer from "../../Components/Footer/Footer";
 
 import "./style.css";
@@ -62,8 +63,10 @@ export default function Home() {
             {showCards ? 'Ver Menos Destinos' : 'Ver Mais Destinos'}
           </Button>
         </div>
-      {showCards && <Cards />}
+        {showCards && <Cards />}
 
+        <Duvidas />
+        
         <div className={`back-to-top ${showButton ? "show" : ""}`}>
           <Button
             variant="primary"
