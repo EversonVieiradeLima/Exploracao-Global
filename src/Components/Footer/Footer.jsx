@@ -34,6 +34,12 @@ export default function Footer() {
                <Nav.Link eventKey="link-1" className="navLink">Fidelidade</Nav.Link>
                <Nav.Link eventKey="link-2" className="navLink">Promoção relâmpago</Nav.Link>
             </Nav>
+
+            <Nav defaultActiveKey="/" className="flex-column boxNavLinks">
+               <Nav.Link href="/" className="navLink">Quem Somos</Nav.Link>
+               <Nav.Link eventKey="link-1" className="navLink">Política de Privacidade</Nav.Link>
+               <Nav.Link eventKey="link-2" className="navLink">Termos e Condições</Nav.Link>
+            </Nav>
          </div>
          <div className="containerRedes">
             <h2>Siga-nos!</h2>
