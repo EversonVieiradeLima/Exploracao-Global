@@ -1,6 +1,6 @@
 main {
    background-color: var(--cor-fundo);
-   padding-top: 2rem;
+   padding: 2rem 0;
 }
 
 .boxPropaganda {
@@ -11,6 +11,23 @@ main {
 .boxPropaganda img {
    height: auto;
    width: 100%;
+}
+
+.boxButtonMaisDestinos {
+   display: flex;
+   justify-content: center;
+}
+
+.buttonMaisDestinos {
+   background-color: var(--cor-principal-destaque);
+   border: 2px solid var(--cor-principal-destaque);
+   color: var(--cor-secundario);
+}
+
+.buttonMaisDestinos:hover {
+   background-color: var(--cor-principal);
+   border: 2px solid var(--cor-principal);
+   color: var(--cor-secundario);
 }
 
 .btn-outline-primary,
