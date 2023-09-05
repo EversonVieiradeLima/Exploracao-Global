@@ -12,3 +12,29 @@
 .accordion {
    width: 70%;
 }
+
+.accordion {
+   --bs-accordion-bg: var(--cor-fundo-modal);
+   --bs-accordion-active-bg: var(--cor-principal);
+}
+
+.accordion-button {
+   color: var(--cor-barra-fundo);
+}
+
+.accordion-button:not(.collapsed) {
+   color: var(--cor-secundario);
+}
+
+.accordionItem {
+   color: var(--cor-barra-fundo);
+}
+
+.links,
+.links:active {
+   color: var(--cor-principal);
+}
+
+.links:hover {
+   color: var(--cor-principal-destaque);
+}
