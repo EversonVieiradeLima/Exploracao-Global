@@ -2,6 +2,9 @@
 
 .navbar {
    background-color: var(--cor-principal) !important;
+   position: fixed;
+   width: 100%;
+   z-index: 1;
 }
 
 .navbarBrand {
@@ -20,28 +23,39 @@ img {
    margin-right: 1rem;
 }
 
-.buttonLogin {
-   background-color: transparent;
-   border: 2px solid var(--cor-secundario);
+.toggle {
+   border: 2px solid;
+}
+
+.offcanvas {
+   background-color: var(--cor-fundo);
+   --bs-offcanvas-width: auto;
+}
+
+.containerButtons {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+}
+
+.buttons {
+   align-items: center;
+   background-color: var(--cor-principal);
+   border: 2px solid var(--cor-principal);
    color: var(--cor-secundario);
+   display: flex;
    font-weight: 500;
+   height: 3em;
+   margin-bottom: 1rem;
+   width: 100%;
 }
 
-.buttonLogin:hover {
-   background-color: var(--cor-secundario);
-   border: 2px solid var(--cor-secundario);
-   color: var(--cor-principal);
-}
-
-.buttonCadastro {
+.buttons:hover {
    background-color: var(--cor-principal-destaque);
    border: 2px solid var(--cor-principal-destaque);
    color: var(--cor-secundario);
-   font-weight: 500;
 }
 
-.buttonCadastro:hover {
-   background-color: var(--cor-secundario);
-   border: 2px solid var(--cor-secundario);
-   color: var(--cor-principal);
+.iconsMenu {
+   margin-right: 1rem;
 }
