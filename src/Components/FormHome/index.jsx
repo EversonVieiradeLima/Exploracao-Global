@@ -12,20 +12,9 @@ import "./style.css";
 import bussola from "../../Images/Inputs/bussola.png";
  
 const TravelPackage = ({ destination, image, description }) => (
-   <div className="travelPackage">
-      <br></br>
+   <div>
       <Row xs={1} md={2} className="g-4">
          <Col key={1}>
-            <Card className="card">
-               <Card.Img variant="top" src={image} />
-               <Card.Body>
-                  <Card.Title>{destination}</Card.Title>
-                  <Card.Text>{description}</Card.Text>
-               </Card.Body>
-               <Button type="button" size="lg" className="buttonDetalhes">Ver Detalhes</Button>
-            </Card>
-         </Col>
-         <Col key={2}>
             <Card className="card">
                <Card.Img variant="top" src={image} />
                <Card.Body>
@@ -54,12 +43,14 @@ export default function Formulario() {
    
    const handleSubmit = event => {
       event.preventDefault();
-      handleSearch();
+      if(event.target[0].value !== "") {
+         handleSearch();
+      }
    };
 
    return (
       <div className="containerPesquisa">
-         <Form className="fomulario boxForm" onSubmit={handleSubmit}>
+         <Form className="boxForm" onSubmit={handleSubmit}>
             <Row className="fomulario">
                <Col xs="auto">
                   <InputGroup className="mr-sm-2 input">
@@ -80,7 +71,7 @@ export default function Formulario() {
                </Col>
             </Row>
          </Form>
-         <div className="package-list">
+         <div className="packageList">
             {filteredPackages.map(travelPackage => (
                <TravelPackage
                   key={travelPackage.id}
