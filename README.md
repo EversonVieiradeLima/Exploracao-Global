@@ -1,3 +1,43 @@
+<h1 align="left">Exploração Global</h1>
+
+###
+
+<h2 align="left">Descrição</h2>
+
+###
+
+<p align="left">Exploração Global é uma plataforma de turismo que permite aos usuários planejar e reservar viagens. A plataforma oferece uma variedade de produtos e serviços, incluindo:<br><br>• Hospedagens: A plataforma oferece uma variedade de opções de hospedagem, desde hotéis e pousadas até apartamentos e casas de aluguel.<br><br>• Passagens aéreas: A plataforma oferece voos de companhias aéreas de todo o mundo.<br><br>• Passeios turísticos: A plataforma oferece uma variedade de passeios turísticos, desde excursões de um dia até viagens de várias semanas.</p>
+
+###
+
+<h2 align="left">Tecnologias</h2>
+
+###
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
+</div>
+
+###
+
+<h2 align="left">Link do Projeto</h2>
+
+###
+
+<div align="left">
+  <a href="https://exploracao-global.vercel.app" target="_blank">
+    <img src="https://exploracao-global.vercel.app/static/media/logo.2137f78f6267b747af91.png" width="52" height="52" alt="linkedin logo"  />
+  </a>
+</div>
+
+###
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
