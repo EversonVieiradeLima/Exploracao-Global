@@ -50,7 +50,7 @@ export default function Footer() {
                <button className="redesSociais"><BsPinterest className="icones pinterest" /></button>
             </div>
          </div>
-         <p>Copyright &copy; 2023 - Desenvolvido por Éverson Vieira</p>
+         <p>Desenvolvido por Éverson Vieira</p>
       </footer>
    );
 }
